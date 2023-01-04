@@ -7,3 +7,22 @@ proxies:
     skip-cert-verify: true
     sni: isibug.com
     udp: true
+  - name: Testing
+    server: 104.18.20.226
+    port: 8443
+    type: vmess
+    uuid: b203c40b-e8ff-469c-a71b-46095ea70a63
+    alterld: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ma5.nyarigratisan.software
+    network: ws
+    ws-opts:
+      path: /DrgTech
+      headers: 
+        host: ma5.nyarigratisan.software
+    udp: true
+      
+    
+   
