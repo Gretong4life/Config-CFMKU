@@ -1,11 +1,11 @@
 proxies:
-  - name: HE
-    server: sg1-trojan.bonds.id
+  - name: SG OVH
+    server: 104.18.20.226
     port: 443
     type: trojan
-    password: xxx
+    password: 72c1fd60-8ce4-11ed-9916-1239d0255272
     skip-cert-verify: true
-    sni: bug
+    sni: sgovh-trojan.bonds.id
     udp: true
   - name: AMP
     server: sg-atha.bonds.id
